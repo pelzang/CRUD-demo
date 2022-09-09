@@ -8,6 +8,13 @@
             <h2>College Students CRUD</h2>
         </div>
         <div class="pull-right">
+            {{-- filtering --}}
+{{-- <form action="" class="col-lg-12 margin-tb">
+    <div class="form-group">
+      <label for="">search</label>
+      <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+    </div>
+</form> --}}
             <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
         </div>
     </div>

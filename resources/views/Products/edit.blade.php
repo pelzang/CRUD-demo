@@ -37,27 +37,22 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Course:</strong>
-                    <input type="text" name="course" class="form-control" placeholder="course">
+                    <input type="text" name="course" value="{{ $product->course }}" class="form-control" placeholder="course">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>College:</strong>
-                    <input type="text" name="college" class="form-control" placeholder="college">
+                    <input type="text" name="college" value="{{ $product->college }}" class="form-control" placeholder="college">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Email:</strong>
-                    <input type="text" name="email" class="form-control" placeholder="email">
+                    <input type="text" name="email" value="{{ $product->email }}" class="form-control" placeholder="email">
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>Detail:</strong>
-                    <textarea class="form-control" style="height:150px" name="detail" placeholder="Detail"></textarea>
-                </div>
-            </div>
+           
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Detail:</strong>
